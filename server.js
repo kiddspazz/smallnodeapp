@@ -7,6 +7,6 @@ const port = 8080;
 
 app.use(express.static("public"));
 
-app.listen(process.env.PORT || port, function(){
+app.listen(port, function(){
     console.log('Your node js server is running');
 });
